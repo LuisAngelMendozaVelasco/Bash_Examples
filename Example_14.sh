@@ -17,4 +17,4 @@ do
     esac
 done
 result=$(($a + $b))
-echo "A+B=$result"
+echo "A + B = $result"
