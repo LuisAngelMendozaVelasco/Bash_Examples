@@ -1,5 +1,7 @@
-#!/bin/bash
-# The AND Operator
+####################
+# The AND Operator #
+####################
+
 echo -n "Input a number less than 20: "
 read num
 
@@ -9,3 +11,10 @@ then
 else
     echo "It is an odd number!"
 fi
+
+: '
+Output:
+
+Input a number less than 20: 15
+It is an odd number!
+'

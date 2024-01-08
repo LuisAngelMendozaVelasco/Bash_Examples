@@ -1,5 +1,6 @@
-#!/bin/bash
-# Obtain arguments from command-line with names
+#################################################
+# Obtain arguments from command-line with names #
+#################################################
 
 # The cut command slices a line and extracts the text.
 # -f option is useful for fixed-length lines.
@@ -16,5 +17,12 @@ do
         *)
     esac
 done
+
 result=$(($a + $b))
 echo "A + B = $result"
+
+: '
+Output:
+
+A + B = 3
+'

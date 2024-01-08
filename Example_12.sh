@@ -1,6 +1,8 @@
-#!/bin/bash
-# Case statement
-echo -n "Enter your lucky number: " # ‘-n’ to print any text without a new line
+##################
+# Case statement #
+##################
+
+echo -n "Enter your lucky number: " # '-n' to print any text without a new line
 read s
 
 case $s in
@@ -13,3 +15,10 @@ case $s in
     *)
         echo "Sorry, you have to keep trying pal!" ;;
 esac
+
+: '
+Output:
+
+Enter your lucky number: 5
+Sorry, you have to keep trying pal!
+'

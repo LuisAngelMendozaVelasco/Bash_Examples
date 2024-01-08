@@ -1,5 +1,7 @@
-#!/bin/bash
-# The Wait command
+####################
+# The Wait command #
+####################
+
 # Linux OS has a built-in command feature that awaits to complete any running process by using a peculiar id to finish that 
 # particular assigned task. Therefore, when there is no job id, the wait command will wait for all secondary cycles to complete 
 # before returning exiting. 
@@ -8,5 +10,12 @@
 # The shell does not wait for the command to finish, and the return status is 0.
 echo "Waiting command" & 
 process_id=$!
-wait $process_id # wait for process to change state
+wait $process_id # Wait for process to change state
 echo "Exited with status $?"
+
+: '
+Output:
+
+Waiting command
+Exited with status 0
+'

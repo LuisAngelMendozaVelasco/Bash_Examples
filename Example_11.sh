@@ -1,6 +1,8 @@
-#!/bin/bash
-# Use of else if statement
-echo -n "Enter your lucky number: " # ‘-n’ to print any text without a new line
+############################
+# Use of else if statement #
+############################
+
+echo -n "Enter your lucky number: " # '-n' to print any text without a new line
 read n
 
 if [ $n -eq 50 ];
@@ -15,3 +17,10 @@ then
 else
     echo "Sorry, you have to keep trying pal!"
 fi
+
+: '
+Output:
+
+Enter your lucky number: 5
+Sorry, you have to keep trying pal!
+'

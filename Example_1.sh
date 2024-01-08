@@ -1,3 +1,11 @@
-#!/bin/bash
-# First Bash Program
-echo "Hello world"
+######################
+# First Bash Program #
+######################
+
+echo "Hello world!"
+
+: '
+Output:
+
+Hello world!
+'

@@ -1,5 +1,7 @@
-#!/bin/bash
-# The switch construct
+########################
+# The switch construct #
+########################
+
 echo -n "Input a number: "
 read number
 
@@ -11,3 +13,10 @@ case $number in
     *)
         echo "Neither 50 nor 100!" ;;
 esac
+
+: '
+Output:
+
+Input a number: 15
+Neither 50 nor 100!
+'

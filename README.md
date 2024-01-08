@@ -1,2 +1,2 @@
-# Bash-Examples
-Examples on basic concepts of Bash
+# Bash Examples
+Examples on basic concepts of Bash.
